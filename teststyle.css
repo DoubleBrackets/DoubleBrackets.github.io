@@ -1,0 +1,18 @@
+
+
+#test-p1 {
+	font-family:"Times";
+	border: 1px solid red;
+	color: red; 
+	font-size:20px
+}
+
+
+.sick-border{
+	border: 3px dashed lightblue;
+	border-radius: 20px;
+}
+
+.blue-text{
+	color: blue;
+}
