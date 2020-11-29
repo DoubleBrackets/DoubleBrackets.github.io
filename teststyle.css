@@ -1,18 +1,38 @@
 
 
 #test-p1 {
+	display:flex;
 	font-family:"Times";
-	border: 1px solid red;
-	color: red; 
-	font-size:20px
+	border: 1px solid lightblue;
+	color: black; 
+	font-size:20px;
+	justify-content:center;
 }
 
 
 .sick-border{
 	border: 3px dashed lightblue;
-	border-radius: 20px;
+	border-radius: 20px 30px;
+}
+
+.border-animation:hover{
+	animation-name: change-border-radius;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	
+}
+
+@keyframes change-border-radius{
+	0%{border-radius: 20px 30px;}
+	50% {border-radius:50% 50%;}
+	100%{border-radius: 20px 30px;}
 }
 
 .blue-text{
 	color: blue;
+}
+
+
+p:hover{
+	background-color: cyan;
 }
