@@ -9,6 +9,14 @@
 	justify-content:center;
 }
 
+.centeredbanner {
+	display: flex;
+	justify-content: center;
+	border: 3px solid lightgreen;
+	background-color:whitesmoke;
+	border-radius:5px;
+	padding: 5px;
+}
 
 .sick-border{
 	border: 3px dashed lightblue;
