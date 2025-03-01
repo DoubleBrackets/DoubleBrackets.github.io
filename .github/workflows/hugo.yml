@@ -24,7 +24,9 @@ jobs:
           # extended: true
 
       - name: cd
-        run: cd hugo-site
+        run: |
+          cd hugo-site \
+          pwd
 
       - name: Build
         run: hugo --minify
