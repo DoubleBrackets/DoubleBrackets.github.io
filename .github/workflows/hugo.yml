@@ -25,8 +25,9 @@ jobs:
 
       - name: cd
         run: |
-          cd hugo-site \
+          cd hugo-site
           pwd
+          ls
 
       - name: Build
         run: hugo --minify
