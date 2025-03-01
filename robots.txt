@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://doublebrackets.github.io/sitemap.xml
