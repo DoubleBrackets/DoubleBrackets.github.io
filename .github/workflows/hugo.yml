@@ -23,6 +23,9 @@ jobs:
           hugo-version: '0.119.0'
           # extended: true
 
+      - name: cd
+        run: cd hugo-site
+
       - name: Build
         run: hugo --minify
 
