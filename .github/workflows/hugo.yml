@@ -30,9 +30,6 @@ jobs:
 
       - name: Build
         run: |
-          cd hugo-site
-          pwd
-          ls
           hugo --minify
 
       - name: Deploy
