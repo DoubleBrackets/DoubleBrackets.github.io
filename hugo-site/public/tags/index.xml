@@ -4,8 +4,12 @@
     <title>Tags on DoubleBrackets</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on DoubleBrackets</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>arthurgan29@gmail.com (Arthur Gan)</managingEditor>
+    <webMaster>arthurgan29@gmail.com (Arthur Gan)</webMaster>
+    <copyright>© 2025 Arthur Gan</copyright>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
   </channel>
 </rss>
